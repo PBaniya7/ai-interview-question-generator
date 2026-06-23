@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>InterviewAce AI</title>
+</head>
+<body>
+
+<h1>InterviewAce AI</h1>
+
+<label>Role</label><br>
+<input id="role"><br><br>
+
+<label>Experience</label><br>
+<input id="experience"><br><br>
+
+<label>Company</label><br>
+<input id="company"><br><br>
+
+<button onclick="generate()">Generate</button>
+
+<h2>Questions</h2>
+
+<pre id="output"></pre>
+
+<script>
+function generate() {
+
+const role=document.getElementById("role").value;
+const experience=document.getElementById("experience").value;
+const company=document.getElementById("company").value;
+
+document.getElementById("output").innerText=`
+
+Role: ${role}
+Experience: ${experience}
+Company: ${company}
+
+1. Tell me about yourself.
+2. Describe a product you built.
+3. How do you prioritize features?
+4. How do you measure success?
+5. How would you improve our product?
+
+`;
+}
+</script>
+
+</body>
+</html>
