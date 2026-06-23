@@ -31,3 +31,10 @@ Generate targeted interview questions instantly.
 - Mock interviews
 - Resume analysis
 - Voice assistant
+  
+## Documentation
+
+- PRD.md
+- CASE_STUDY.md
+
+These documents explain the product strategy, MVP scope, user journey, metrics, and roadmap.
